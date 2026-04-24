@@ -14,7 +14,7 @@ import logging
 import os
 import sys
 
-sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", "meshkore-sdk-python", "src"))
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", "sdk", "src"))
 from meshkore import MeshKoreAgent
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(name)s] %(message)s")
