@@ -1,0 +1,3 @@
+visibility: public
+remote:
+role: MeshKore example agents and integration scripts. REST chat, LangChain, multi-agent. Starting point for developers building on MeshKore.
