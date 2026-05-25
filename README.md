@@ -13,9 +13,20 @@ GitHub. Adding code here means making it visible to the world.
 
 ## What lives here
 
-Currently: nothing yet — placeholder + this README.
+**Starter scripts** (moved from former root `examples/` folder, 2026-05-25):
 
-Planned:
+| File | What it shows |
+|---|---|
+| `agent_a.py` + `agent_b.py` | Two-agent greeting + reply over the mesh |
+| `langchain_agent.py` | LangChain agent receiving `task_request`s and replying with `task_result` |
+| `multi_agent_task.py` | Coordinator agent fan-out to multiple workers |
+| `simple_rest_chat.py` | Minimal REST-mode chat without WebSocket polling |
+
+All depend on the **Python SDK** (`pip install meshkore` →
+[`meshkore/sdk`](https://github.com/meshkore/sdk)). Each script's
+docstring includes its install/run instructions.
+
+**Planned** (not here yet):
 
 - The 5 cluster demo agents currently in `seeds/seed_agents.py` (one
   big Python process), once they're split into per-agent folders:
